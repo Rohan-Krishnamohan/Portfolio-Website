@@ -79,6 +79,9 @@ nav {
 .about-me-text-container {
   margin-right: var(--spacing-3);
 }
+main {
+    background-color:navajowhite;
+}
 
 #projects {
   background-color:navajowhite;
@@ -120,6 +123,11 @@ a {
   font-weight: 600;
 }
 
+#skills {
+    background-color: midnightblue;
+    padding: 10px;
+}
+
 #skills-container {
   display: flex;
   width: 100%;
@@ -145,6 +153,22 @@ a {
 i {
   font-size: 4em;
 }
+
+#contact i {
+    margin-left: 15px;
+}
+
+#contacts-main {
+    background-color:midnightblue;
+    padding: 10px;
+}
+
+#contacts-main-text {
+    background-color:navajowhite;
+    padding: 10px;
+    color: black;
+}
+
 
 @media only screen and (max-width: 600px) {
   .about-me-container {
